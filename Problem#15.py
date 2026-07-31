@@ -4,7 +4,7 @@ size = int(input("Enter the size of list:"))
 
 numbers = []
 
-for i in range(size+1):
+for i in range(size):
     num = int(input(f"Enter {i+1} element of the list:"))
     numbers.append(num)
 
